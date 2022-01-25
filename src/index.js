@@ -2,11 +2,12 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
+import  QuilEditor from './reactQuil/QuilEditor'
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+  <QuilEditor/>
   </React.StrictMode>,
   document.getElementById('root')
 );
